@@ -1,0 +1,8 @@
+
+LIBRARY SetupDemo ;Name of the library 
+
+EXPORTS ;And the exports section            
+    
+	;The functions you want to export
+	FlipMeshNormals @1
+	Distance2D      @2 
