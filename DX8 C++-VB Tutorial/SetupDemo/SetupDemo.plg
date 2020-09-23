@@ -1,0 +1,42 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: SetupDemo - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSP5125.TMP" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "SETUPDEMO_EXPORTS" /Fp"Release/SetupDemo.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\My Documents\DX8 C++-VB Tutorial\SetupDemo\SetupDemo.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP5125.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP5126.TMP" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "SETUPDEMO_EXPORTS" /Fp"Release/SetupDemo.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\My Documents\DX8 C++-VB Tutorial\SetupDemo\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP5126.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP5127.TMP" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:"Release/SetupDemo.pdb" /machine:I386 /def:".\SetupDemo.def" /out:"Release/SetupDemo.dll" /implib:"Release/SetupDemo.lib" 
+".\Release\SetupDemo.obj"
+".\Release\StdAfx.obj"
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP5127.TMP"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+SetupDemo.cpp
+Linking...
+   Creating library Release/SetupDemo.lib and object Release/SetupDemo.exp
+
+
+
+<h3>Results</h3>
+SetupDemo.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
